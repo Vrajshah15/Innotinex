@@ -24,10 +24,10 @@ export function ProjectsPreview() {
             className="max-w-xl"
           >
             <h2 className="font-heading text-3xl font-bold tracking-tight text-primary sm:text-4xl mb-4">
-              What We’re Building
+              What We&apos;re Building
             </h2>
             <p className="text-secondary-text text-lg">
-              We’re currently working on innovative solutions. Here is a sneak peek at what's coming:
+              We&apos;re currently working on innovative solutions. Here is a sneak peek at what&apos;s coming:
             </p>
           </motion.div>
           <motion.div
