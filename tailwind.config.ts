@@ -12,15 +12,15 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "#0F2C59",
+          DEFAULT: "#0A192F",
           text: "#0F172A",
         },
         secondary: {
           text: "#334155",
         },
         accent: {
-          DEFAULT: "#00D2FF",
-          hover: "#00A8CC",
+          DEFAULT: "#64FFDA",
+          hover: "#45E6BE",
         },
         surface: {
           DEFAULT: "#F8FAFC",
