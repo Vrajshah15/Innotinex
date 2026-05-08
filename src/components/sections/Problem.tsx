@@ -1,17 +1,16 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 import { AlertCircle, TrendingDown, Clock, SearchX } from "lucide-react";
 
-export function Problem() {
-  const points = [
-    { text: "Not getting enough leads or inquiries?", icon: <TrendingDown className="text-accent" /> },
-    { text: "Managing work manually and wasting time?", icon: <Clock className="text-accent" /> },
-    { text: "No proper system to track customers or operations?", icon: <AlertCircle className="text-accent" /> },
-    { text: "Tried marketing but didn’t see real results?", icon: <SearchX className="text-accent" /> },
-  ];
+const points = [
+  { text: "Not getting enough leads or inquiries?", icon: <TrendingDown className="text-accent" /> },
+  { text: "Managing work manually and wasting time?", icon: <Clock className="text-accent" /> },
+  { text: "No proper system to track customers or operations?", icon: <AlertCircle className="text-accent" /> },
+  { text: "Tried marketing but didn’t see real results?", icon: <SearchX className="text-accent" /> },
+];
 
+export function Problem() {
   return (
     <section className="bg-surface py-20 md:py-24">
       <div className="container mx-auto max-w-[800px] px-6 md:px-8 text-center">
