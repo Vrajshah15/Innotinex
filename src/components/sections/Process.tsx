@@ -1,15 +1,14 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 
-export function Process() {
-  const steps = [
-    { number: "01", title: "Understand your business & goals" },
-    { number: "02", title: "Build a tailored solution" },
-    { number: "03", title: "Launch, optimize, and scale" },
-  ];
+const steps = [
+  { number: "01", title: "Understand your business & goals" },
+  { number: "02", title: "Build a tailored solution" },
+  { number: "03", title: "Launch, optimize, and scale" },
+];
 
+export function Process() {
   return (
     <section className="bg-surface py-20 md:py-24 border-y border-gray-100">
       <div className="container mx-auto max-w-[1000px] px-6 md:px-8 text-center">
