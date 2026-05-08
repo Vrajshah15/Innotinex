@@ -1,31 +1,30 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 import { LayoutTemplate, LineChart, Bot } from "lucide-react";
 
-export function Solution() {
-  const solutions = [
-    {
-      title: "High-Converting Websites",
-      description: "Websites designed to turn visitors into real customers.",
-      icon: <LayoutTemplate size={32} className="text-white" />,
-      color: "bg-primary"
-    },
-    {
-      title: "Digital Marketing That Brings Leads",
-      description: "Strategies focused on actual inquiries — not vanity metrics.",
-      icon: <LineChart size={32} className="text-white" />,
-      color: "bg-accent"
-    },
-    {
-      title: "AI Automation for Your Business",
-      description: "Save time by automating repetitive tasks and workflows.",
-      icon: <Bot size={32} className="text-white" />,
-      color: "bg-primary"
-    }
-  ];
+const solutions = [
+  {
+    title: "High-Converting Websites",
+    description: "Websites designed to turn visitors into real customers.",
+    icon: <LayoutTemplate size={32} className="text-white" />,
+    color: "bg-primary"
+  },
+  {
+    title: "Digital Marketing That Brings Leads",
+    description: "Strategies focused on actual inquiries — not vanity metrics.",
+    icon: <LineChart size={32} className="text-white" />,
+    color: "bg-accent"
+  },
+  {
+    title: "AI Automation for Your Business",
+    description: "Save time by automating repetitive tasks and workflows.",
+    icon: <Bot size={32} className="text-white" />,
+    color: "bg-primary"
+  }
+];
 
+export function Solution() {
   return (
     <section className="bg-white py-20 md:py-24" id="services">
       <div className="container mx-auto max-w-[1200px] px-6 md:px-8">
