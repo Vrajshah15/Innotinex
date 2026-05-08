@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 import { LayoutTemplate, LineChart, Bot } from "lucide-react";
 
