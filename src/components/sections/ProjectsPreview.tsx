@@ -1,16 +1,15 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "../ui/Button";
 
-export function ProjectsPreview() {
-  const projects = [
-    "Smart business automation systems",
-    "Real-time communication platforms",
-    "Custom tools for local businesses",
-  ];
+const projects = [
+  "Smart business automation systems",
+  "Real-time communication platforms",
+  "Custom tools for local businesses",
+];
 
+export function ProjectsPreview() {
   return (
     <section className="bg-surface py-20 md:py-24" id="projects">
       <div className="container mx-auto max-w-[1200px] px-6 md:px-8">
