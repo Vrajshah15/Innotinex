@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import { ObfuscatedEmail } from "../ui/ObfuscatedEmail";
+
 
 export function Footer() {
   return (
@@ -27,7 +29,7 @@ export function Footer() {
           {/* Contact */}
           <div className="flex flex-col gap-3">
             <h3 className="font-heading font-semibold text-lg">Contact Info</h3>
-            <a href="mailto:hello@ionnetix.com" className="text-sm text-gray-300 hover:text-accent transition-colors">hello@ionnetix.com</a>
+            <ObfuscatedEmail />
             <p className="text-sm text-gray-300">+91 000 000 0000</p>
             <a href="#" className="text-sm text-accent font-medium hover:text-white transition-colors mt-2">Chat on WhatsApp &rarr;</a>
           </div>
